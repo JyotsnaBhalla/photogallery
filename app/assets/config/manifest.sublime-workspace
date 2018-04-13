@@ -1,0 +1,205 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jyotsna/blog/app/controllers/articles_controller.rb",
+		"/home/jyotsna/blog/app/views/articles/index.html.erb",
+		"/home/jyotsna/blog/app/views/layouts/application.html.erb",
+		"/home/jyotsna/blog/app/views/articles/_form.html.erb",
+		"/home/jyotsna/blog/app/views/articles/show.html.erb",
+		"/home/jyotsna/blog/app/controllers/comments_controller.rb",
+		"/home/jyotsna/blog/app/controllers/application_controller.rb",
+		"/home/jyotsna/blog/app/models/comment.rb",
+		"/home/jyotsna/blog/app/views/articles/new.html.erb",
+		"/home/jyotsna/blog/app/views/articles/edit.html.erb",
+		"/home/jyotsna/blog/db/schema.rb",
+		"/home/jyotsna/blog/app/models/article.rb",
+		"/home/jyotsna/blog/app/views/welcome/index.html.erb",
+		"/home/jyotsna/blog/config/routes.rb",
+		"/home/jyotsna/blog/app/controllers/welcome_controller.rb",
+		"/home/jyotsna/blog/app/mailers/application_mailer.rb",
+		"/home/jyotsna/blog/app/helpers/comments_helper.rb",
+		"/home/jyotsna/blog/app/helpers/application_helper.rb",
+		"/home/jyotsna/blog/log/development.log",
+		"/home/jyotsna/blog/app/assets/stylesheets/welcome.scss",
+		"/home/jyotsna/blog/app/assets/stylesheets/articles.scss",
+		"/home/jyotsna/blog/db/migrate/20180315163300_create_articles.rb",
+		"/home/jyotsna/rubyfiles/symbols.rb",
+		"/home/jyotsna/rubyfiles/hash.rb",
+		"/home/jyotsna/rubyfiles/arrays.rb",
+		"/home/jyotsna/rubyfiles/strings.rb",
+		"/home/jyotsna/rubyfiles/first.rb",
+		"/home/jyotsna/blog/app/models/application_record.rb",
+		"/home/jyotsna/rubyfiles/methods.rb",
+		"/home/jyotsna/Ruby files/first.rb",
+		"/home/jyotsna/blog/db/migrate/20180320155351_create_comments.rb",
+		"/home/jyotsna/blog/app/views/comments/_comment.html.erb",
+		"/home/jyotsna/blog/app/views/comments/_form.html.erb",
+		"/home/jyotsna/blog/app/views/comments/show.html.erb",
+		"/home/jyotsna/blog/config/database.yml",
+		"/home/jyotsna/blog/config/spring.rb",
+		"/home/jyotsna/blog/Gemfile"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "manifest.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gem",
+				"Gemfile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

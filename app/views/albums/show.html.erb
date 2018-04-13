@@ -1,0 +1,56 @@
+<p>
+	<strong>Album Title:</strong>
+	<%= @album.title %>
+	<%= image_tag @album.album_cover.url(:medium) %>
+</p>
+<h2>Pictures</h2>
+
+<table>
+	<% @album.pictures.each do |picture| %>
+    <tr>
+      <td><%= image_tag picture.image.url(:medium) %></td>
+      <% if current_user.id == @album.user_id %>
+    	<td><%= link_to 'Delete Picture', [picture.album, picture],
+       method: :delete, data:{confirm: 'Are you Sure?'} %></td>
+       <% end %>
+    </tr>
+    <tr>
+      <td>Comments:</td>
+    </tr>
+    <% picture.comments.each do |comment| %>
+      <tr>
+           <td>User: <%= comment&.user&.email %></td>
+           <td>Comment:<%= comment.body %></td>
+           <% if comment.user_id == current_user.id %>
+            <td><%= link_to 'Delete', [comment.picture.album, picture, comment], 
+            method: :delete, data:{confirm: 'Are you Sure?'} %></td>
+           <% end %>
+      </tr>
+    <% end %>
+    <tr>
+      <td>
+       Add Comment :
+        <%= form_with(model: [ @album, picture, picture.comments.build ], local:true) do |c| %>
+         <%= c.hidden_field  'user_id', :value =>current_user.id   %>
+         <p>
+         <%= c.label :body %><br>
+         <%= c.text_area :body %>
+        </p>
+        <p>
+         <%= c.submit %>
+        </p>
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+<% if current_user.id == @album.user_id %>
+  <h2>Add Pictures To Album</h2>
+   <%= render 'pictures/form' %>
+  <%= link_to 'Edit' , edit_album_path(@album) %> |
+  <%= link_to 'Back To Your Albums', albums_path %> |
+  <%= link_to 'Back To Home', root_path %>
+<% else %>
+  <%= link_to 'Back To Home', root_path %>
+<% end %>
+

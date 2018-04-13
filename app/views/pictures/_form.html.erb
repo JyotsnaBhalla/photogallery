@@ -1,0 +1,8 @@
+<%= form_with(model: [ @album, @album.pictures.build ],html: { multipart: true }, local: true) do |picture| %>
+    <p>
+    	<%= picture.file_field :image %>
+    </p>
+    <p>
+      <%= picture.submit %>
+    </p>
+  <% end %>

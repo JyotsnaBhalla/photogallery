@@ -1,0 +1,23 @@
+<%= form_with model:@album,html: { multipart: true },local: true do |f| %>
+	<% if @album.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@album.errors.count, "error") %> prohibited
+        this article from being saved:
+      </h2>
+      <ul>
+        <% @album.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+	<p>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </p>
+  <%= f.file_field :album_cover %>
+   <p>
+    <%= f.submit %>
+  </p>
+<% end %>
